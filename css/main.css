@@ -20,7 +20,7 @@ h1{
   font-size: 26px;
   text-decoration: none;
   font-family: 'Dosis', sans-serif;
-  color: #751c17;
+  color: #9A1700;
   margin: 0;
   padding: 35px 2px 2px 85px;
   line-height: 5px
@@ -30,7 +30,7 @@ h2{
   font-weight: bold;
   text-decoration: none;
   font-family: 'Dosis', sans-serif;
-  color: #751c17;
+  color: #9A1700;
   font-size: 35px;
   margin: 0;
   padding: 1px 2px 2px 85px;
@@ -40,15 +40,98 @@ h2{
 h3{
   display: block;
   background-color: #e5d7b0;
-  color: #751c17;
+  color: #9A1700;
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-decoration: none;
   text-align: center;
-  border: 2px solid #751c17;
+  border: 2px solid #9A1700;
   margin: 0;
   padding: .5em .5em;
+}
+
+h4{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 25px 25px 0px 25px;
+  margin: 0;
+  border-bottom: 2px solid #9A1700;
+  line-height: 12px;
+}
+
+h5{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding: 5px 25px 5px 25px;
+  margin: 0;
+  line-height: 10px;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h5s{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding: 5px 25px 5px 25px;
+  margin: 0;
+  line-height: 10px;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h6{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding: 5px 25px 5px 25px;
+  margin: 0;
+  line-height: 10px;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h6s{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 5px 25px 5px 25px;
+  margin: 0;
+  line-height: 10px;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h6ss{
+  display: block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 5px 25px 5px 25px;
+  margin: 0;
+  line-height: 10px;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 
@@ -57,18 +140,84 @@ p{
   font-size: 1rem;
   text-decoration: none;
   font-family: 'Dosis', sans-serif;
-  color: #751c17;
+  color: #9A1700;
   margin: 0;
   padding: 1px 2px 20px 85px;
   line-height: 10px
 }
 
 p1{
+  display: block;
   font-weight: normal;
   text-decoration: none;
   font-family: 'Dosis', sans-serif;
-  color: #751c17;
+  color: #9A1700;
+  background-color: #f2ebd8;
+  padding: 20px 25px 20px 25px;
+
 }
+
+app1{
+  display: inline-block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding: 20px 25px 5px 25px;
+  margin: 0;
+  line-height: 1em;
+}
+
+app1prc{
+  display: inline-block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 20px 25px 5px 25px;
+  margin: 0;
+  line-height: 1em;
+  float: right;
+}
+
+piz{
+  display: inline-block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding: 20px 5px 5px 25px;
+  margin: 0;
+  line-height: 1em;
+}
+
+pizprc{
+  display: inline-block;
+  background-color: #f2ebd8;
+  color: #9A1700;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  padding: 20px 15px 5px 25px;
+  margin: 0;
+  line-height: 1em;
+  float: right;
+}
+
+.apps{
+  background-color: #f2ebd8;
+  padding: 10px 25px 1px 25px;
+
+}
+.appspiz{
+  background-color: #f2ebd8;
+  padding: 10px 25px 20px 25px;
+
+}
+
+
+
+
+
 
 .about{
   text-align: center;
@@ -97,13 +246,13 @@ li {
 
 a {
   color: #9A1700;
-  border: 2px solid #751c17;
+  border: 2px solid #9A1700;
 }
 
 nav a {
   display: block;
   background-color: #f2ebd8;
-  color: #751c17;
+  color: #9A1700;
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
   font-size: 25px;
