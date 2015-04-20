@@ -285,4 +285,12 @@ main{
 
 img{
   width: 100%;
-  }
+}
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -158px;
+  height: 158px;
+  visibility: hidden;
+}
