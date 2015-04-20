@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+header{
+  background-color: #e5d7b0;
+  text-align: center;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: #751c17;
+  margin: 0;
+  padding: 35px 2px 2px 85px;
+  line-height: 5px
+}
+
+h2{
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: #751c17;
+  font-size: 35px;
+  margin: 0;
+  padding: 1px 2px 2px 85px;
+  line-height: 43px
+}
+
+p{
+  font-weight: normal;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: #751c17;
+  margin: 0;
+  padding: 1px 2px 2px 85px;
+  line-height: 15px
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0em 0em .25em 0em;
+}
+
+nav ol {
+  padding: 0;
+}
+li {
+  margin: 1em 1em 1em 1em;
+}
+
+a {
+  color: #9A1700;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1em 1em;
+  background-color: #F24405;
+  color: #fff;
+  text-decoration: none;
+  border-radius: none;
+  transition: 1s ease
+}
+
+.masthead {
+  background-image: url("../assets/colonnadelogo.svg");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
+  background-position: left 35px top 30px;
