@@ -65,7 +65,7 @@ h4{
   padding: 25px 25px 0px 25px;
   margin: 0;
   border-bottom: 2px solid #9A1700;
-  line-height: 12px;
+  line-height: 16px;
 }
 
 h5{
@@ -136,7 +136,7 @@ h6{
   font-size: 1rem;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 421px;
 }
 
 
@@ -291,9 +291,9 @@ main{
 
 .masthead {
   background-image: url("../assets/colonnadelogo.svg");
-  background-size: 70px auto;
+  background-size: 86px auto;
   background-repeat: no-repeat;
-  background-position: left 35px top 30px;
+  background-position: left 27px top 23px;
   position: fixed;
   top: 0;
   z-index: 100;
