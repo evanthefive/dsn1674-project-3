@@ -27,7 +27,7 @@ h1{
   font-family: 'Dosis', sans-serif;
   color: #9A1700;
   margin: 0;
-  padding: 25px 2px 2px 85px;
+  padding: 35px 2px 2px 85px;
   line-height: 5px
 }
 
@@ -293,7 +293,7 @@ main{
   background-image: url("../assets/colonnadelogo.svg");
   background-size: 86px auto;
   background-repeat: no-repeat;
-  background-position: left 29px top 13px;
+  background-position: left 27px top 19px;
   position: fixed;
   top: 0;
   z-index: 100;
